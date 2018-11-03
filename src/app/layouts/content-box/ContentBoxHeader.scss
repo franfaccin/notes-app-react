@@ -1,0 +1,11 @@
+@import '../../../assets/sass/base/variables.scss';
+
+.ff-content-box-header {
+  border-bottom: 1px solid $ff-gray-light;
+  width: 100%;
+
+  h3 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}

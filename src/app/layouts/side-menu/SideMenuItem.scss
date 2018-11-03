@@ -1,0 +1,29 @@
+@import '../../../assets/sass/base/variables.scss';
+
+.ff-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 1.5rem;
+  color: $ff-gray;
+  fill: $ff-gray;
+
+  &:hover {
+    color: $ff-secondary-color;
+    fill: $ff-secondary-color;
+  }
+
+  &.active,
+  &:active {
+    color: $ff-primary-color;
+    fill: $ff-primary-color;
+    background-color: $ff-secondary-color;
+  }
+
+  li {
+    display: flex;
+    width: 100%;
+  }
+}

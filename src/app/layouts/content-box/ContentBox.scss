@@ -1,0 +1,16 @@
+@import '../../../assets/sass/base/variables.scss';
+
+.ff-content-box {
+  max-width: 860px;
+  width: 100%;
+  border: 1px solid $ff-gray-light;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 1.25px 2px 0px rgba($ff-gray-light, 1);
+  -moz-box-shadow: 0px 1.25px 2px 0px rgba($ff-gray-light, 1);
+  box-shadow: 0px 1.25px 2px 0px rgba($ff-gray-light, 1);
+
+  .ff-content-box-header,
+  .ff-content-box-main {
+    padding: 1.4rem 2.2rem;
+  }
+}

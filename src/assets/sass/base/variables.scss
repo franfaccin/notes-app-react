@@ -1,0 +1,40 @@
+//------------------------------------
+//  #Colors
+//------------------------------------
+
+$ff-primary-color: #222222;
+$ff-secondary-color: #3d88a7;
+
+$ff-text-color: #1d1d1d;
+
+$ff-gray: #a6a6a6;
+$ff-gray-light: #e0e0e0;
+
+$black: #000000;
+$white: #FFFFFF;
+
+//------------------------------------
+//  #Fonts
+//------------------------------------
+$ff-font-title-name: 'Bitter';
+$ff-font-regular-name: 'Open Sans';
+
+$ff-font-title: $ff-font-title-name, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$ff-font-regular: $ff-font-regular-name, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+// -----------------------------------
+//  #Font Mixin
+// -----------------------------------
+@mixin font-face($name, $src, $weight: normal) {
+  @font-face {
+    font-family: $name;
+    font-weight: $weight;
+    @import url($src);
+  }
+}
+
+//-----------------------------------
+//  #Font Faces
+//-----------------------------------
+@include font-face($ff-font-title-name, 'https://fonts.googleapis.com/css?family=Bitter:700', 700);
+@include font-face($ff-font-regular-name, 'https://fonts.googleapis.com/css?family=Open+Sans');

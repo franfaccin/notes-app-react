@@ -1,0 +1,9 @@
+@import '../../../assets/sass/base/variables.scss';
+
+.ff-nav-logo {
+  padding: .5em;
+
+  &.active {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,21 @@
+//---------------------------------------
+//  vendors default - 3rd-party
+//---------------------------------------
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//---------------------------------------
+//  global base styles
+//---------------------------------------
+@import 'base/reset.scss';
+
+//---------------------------------------
+//  global atomic classes
+//---------------------------------------
+@import 'base/atomic-colors.scss';
+@import 'base/atomic-classes.scss';
+
+//---------------------------------------
+//  Custom components
+//---------------------------------------
+@import 'components/button.scss';
+@import 'components/label.scss';

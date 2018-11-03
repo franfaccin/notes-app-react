@@ -1,0 +1,39 @@
+//------------------------------------
+//  #Single property classes
+//------------------------------------
+// naming conventions from http://acss.io/reference
+
+.h\(1\/1\) {
+  height: 100%;
+}
+
+.mih\(100\%\) {
+  min-height: 100%;
+}
+
+.mih\(100vh\) {
+  min-height: 100vh;
+}
+.w\(1\/1\) {
+  width: 100%;
+}
+
+.d\(f\) {
+  display: flex;
+}
+
+.p\(2em\) {
+  padding: 2em;
+}
+
+.ai\(c\) {
+  align-items: center;
+}
+
+.jc\(sb\) {
+  justify-content: space-between;
+}
+
+.flw\(w\) {
+  flex-wrap: wrap;
+}
